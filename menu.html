@@ -1,0 +1,651 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Restraurant/Menu</title>
+	<link href="style.css" rel="stylesheet"/>
+	<link href="media.css" rel="stylesheet"/>
+	<link href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+	<script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <script src="script.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+	<script src="https://kit.fontawesome.com/29ec23926b.js" crossorigin="anonymous"></script>
+</head>
+	<style>
+	.sec1{background-image:url("Images/MENU BACKGROUND.jpg");width:100%;background-size:cover;background-attachment: scroll;}
+	</style>
+
+<body>
+	<div class="sec1">
+          <div class="navigation">
+		    <div class="navv">
+                <div class="logo">
+                    <img src="Images/logo.png" alt=""/>
+                </div>
+							<ul class="nav_menu">
+								<li class="nav_link"> <a href="Index.html">Home</a> </li>
+								<li class="nav_link"> <a href="menu.html">Menu</a> </li>
+								<li class="nav_link"> <a href="speciality.html">Specialities</a></li>
+								<li class="nav_link"> <a href="#">Reservation</a> </li>
+								<li class="nav_link"> <a href="#">Blog</a> </li>
+								<li class="nav_link"> <a href="#">About</a> </li>
+								<li class="nav_link"> <a href="#">Contact</a> </li>
+								<li class="nav_link ham" onClick="showBar()"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="30px" viewBox="0 -960 960 960" width="30px" fill="#FFFFFF"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+							</ul>
+			               	<ul class="side_bar">
+								<li class="nav_link close mobile_link" onclick="closeBar()"> <a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="30px" viewBox="0 -960 960 960" width="30px" fill="#FFFFFF"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a> </li>
+				                <li class="nav_link mobile_link"> <a href="Index.html">Home</a> </li>
+								<li class="nav_link mobile_link"> <a href="menu.html">Menu</a> </li>
+								<li class="nav_link mobile_link"> <a href="speciality.html">Specialities</a></li>
+								<li class="nav_link mobile_link"> <a href="#">Reservation</a> </li>
+								<li class="nav_link mobile_link"> <a href="#">Blog</a> </li>
+								<li class="nav_link mobile_link"> <a href="#">About</a> </li>
+								<li class="nav_link mobile_link"> <a href="#">Contact</a> </li>
+							</ul>
+						</div>
+					</div>
+        
+           
+    <div class="chill">
+		   <h1>Book a table for yourself at a<br>time convenient for<br>you</h1>
+    </div>
+		   
+		   
+	<div class="button_holder">
+          <a href="#" class="button1"> Book a table</a>
+    </div>
+         <div class="chill">
+		   <div class="fire">
+			   <div class="box">
+				   <input type="text" class="form-control" placeholder="Name">
+				   <input type="text" class="form-control" placeholder="Phone">
+				   <input type="date" class="form-control" placeholder="M/D/YYYY">
+				   <input type="time" class="form-control" id="timeInput">
+			       <input type="text" class="form-control" placeholder="person">
+				
+          <a href="#" class="button2"> Book a table</a>
+     
+			   </div>
+			 
+			   
+			   
+			  
+		   
+		   
+		   
+		   </div>
+		   </div>
+		   </div>
+	
+	<div class="sec3">
+
+	
+	
+		 <div class="boat">
+		   <p>OUR MENU</p>
+			 <h4>Discover Our Exclusive Menu</h4>
+		 
+		 </div>
+	 
+	
+   <div class="zebra">
+	   <a href="#a1" class="button3" id="a1">
+		   <span>Main</span>
+		<img src="Images/7443733.png">
+	   </a>
+	   
+	   <a href="#a2" class="button3" id="a2">
+		   <span>Desert</span>
+		<img src="Images/pngtree-fork-and-knife-icon-png-image_5287174.png">
+	   </a>
+	   
+	   <a href="#a3" class="button3" id="a3">
+		   <span>Drinks</span>
+		<img src="Images/drink.svg">
+	   </a>
+	
+	</div>
+
+	<div class="captain">
+<div class="circlepsp" id="b1">
+<div class="circleP" >
+	<div class="circle">
+	  <div class="always">
+		<img src="Images/grilled-steak-with-lemon-pepper-potatoes-27826-1.jpeg"/>
+	</div>
+	
+	<div class="zebro">
+		<h5>Grilled beef with potatoes</h5>
+		 <p>Meat,potatoe,rice,tomatoe</p>
+	</div>	
+	<div class="hand">
+		<p>$10</p>
+		</div>
+	
+	</div>
+	
+	<div class="circle">
+	  <div class="always">
+		<img src="Images/vanilla ice cream.jpg"/>
+	</div>
+	
+	<div class="zebro">
+		<h5>Fruit vanilla ice cream</h5>
+		 <p>Strawberry ice cream,dry fruit,wafer</p>
+	</div>	
+	<div class="hand">
+		<p>$3</p>
+		</div>
+	
+	</div>
+	
+	<div class="circle">
+	  <div class="always">
+		<img src="Images/hoisin pork.jpg"/>
+	</div>
+	
+	<div class="zebro">
+		<h5>Asian Hoisin pork</h5>
+		 <p>boneless pork chops,water chestnuts,hoisin sauce</p>
+	</div>	
+	<div class="hand">
+		<p>$12</p>
+		</div>
+	
+	</div>
+	
+	
+	<div class="circle">
+	  <div class="always">
+		<img src="Images/chicken-and-bacon-fried-rice-10-1-of-1-1024x731.jpg"/>
+	</div>
+	
+	<div class="zebro">
+		<h5>Spicy fried rice and bacon</h5>
+		 <p>bacon,white rice,soy sauce</p>
+	</div>	
+	<div class="hand">
+		<p>$8</p>
+		</div>
+	
+	</div>
+	
+	
+	<div class="circle">
+	  <div class="always">
+		<img src="Images/Mango-Chili-Chutney-4.jpg"/>
+	</div>
+	
+	<div class="zebro">
+		<h5>Mango chilli chutney</h5>
+		 <p>ginger,fennel seeds,vinegar</p>
+	</div>	
+	<div class="hand">
+		<p>$5</p>
+		</div>
+	
+	</div>
+ </div>	
+	    
+	
+	<div class="circleP" >
+	<div class="circle">
+	  <div class="always">
+		<img src="Images/SES-savory-herb-pancakes-and-lox-recipe-6951114-step-09-b48627c350104a56b1e6ae2f1ff8aa03.jpg"/>
+	</div>
+	
+	<div class="zebro">
+		<h5>Savory Watercress Chinese Pancakes</h5>
+		 <p>Chinese chives,sugar,grapeseed oil</p>
+	</div>	
+	<div class="hand">
+		<p>$15</p>
+		</div>
+	
+	</div>
+	
+	<div class="circle">
+	  <div class="always">
+		<img src="Images/Vegetable-Beef-Soup-bowl.jpg"/>
+	</div>
+	
+	<div class="zebro">
+		<h5>Soup With Vegetables And Meat</h5>
+		 <p>Red wine,mushroom,meat</p>
+	</div>	
+	<div class="hand">
+		<p>$11</p>
+		</div>
+	
+	</div>
+	
+	<div class="circle">
+	  <div class="always">
+		<img src="Images/images (1).jpg"/>
+	</div>
+	
+	<div class="zebro">
+		<h5>Udon Noodles With Vegetables</h5>
+		 <p>Udon noodles,soy sauce,sesame oil</p>
+	</div>	
+	<div class="hand">
+		<p>$7</p>
+		</div>
+	
+	</div>
+	
+	
+	<div class="circle">
+	  <div class="always">
+		<img src="Images/ALR-recipe-282923-baked-lobster-tails-hero-03-ddmfs-4x3-c61ad29ab8c64a65860d25c60beb128c.jpg"/>
+	</div>
+	
+	<div class="zebro">
+		<h5>Baked Lobster With A Garnish</h5>
+		 <p>Lobster tails, parsley, garlic</p>
+	</div>	
+	<div class="hand">
+		<p>$20</p>
+		</div>
+	
+	</div>
+	
+	
+	<div class="circle">
+	  <div class="always">
+		<img src="Images/octopus-with-vegetables-seafood-dish-2AYPJTR.jpg"/>
+	</div>
+	
+	<div class="zebro">
+		<h5>Octopus with Vegetables</h5>
+		 <p>octopus, cucumber, perilla</p>
+	</div>	
+	<div class="hand">
+		<p>$20</p>
+		</div>
+	</div>
+	</div>	 
+		
+	</div>
+	
+	<div class="circlepsp" id="b2">
+<div class="circleP">
+	<div class="circle">
+	  <div class="always">
+		<img src="Images/grilled-steak-with-lemon-pepper-potatoes-27826-1.jpeg"/>
+	</div>
+	
+	<div class="zebro">
+		<h5>Grilled beef with potatoes</h5>
+		 <p>Meat,potatoe,rice,tomatoe</p>
+	</div>	
+	<div class="hand">
+		<p>$10</p>
+		</div>
+	
+	</div>
+	
+	<div class="circle">
+	  <div class="always">
+		<img src="Images/vanilla ice cream.jpg"/>
+	</div>
+	
+	<div class="zebro">
+		<h5>Fruit vanilla ice cream</h5>
+		 <p>Strawberry ice cream,dry fruit,wafer</p>
+	</div>	
+	<div class="hand">
+		<p>$3</p>
+		</div>
+	
+	</div>
+	
+	<div class="circle">
+	  <div class="always">
+		<img src="Images/hoisin pork.jpg"/>
+	</div>
+	
+	<div class="zebro">
+		<h5>Asian Hoisin pork</h5>
+		 <p>boneless pork chops,water chestnuts,hoisin sauce</p>
+	</div>	
+	<div class="hand">
+		<p>$12</p>
+		</div>
+	
+	</div>
+	
+	
+	<div class="circle">
+	  <div class="always">
+		<img src="Images/chicken-and-bacon-fried-rice-10-1-of-1-1024x731.jpg"/>
+	</div>
+	
+	<div class="zebro">
+		<h5>Spicy fried rice and bacon</h5>
+		 <p>bacon,white rice,soy sauce</p>
+	</div>	
+	<div class="hand">
+		<p>$8</p>
+		</div>
+	
+	</div>
+	
+	
+	<div class="circle">
+	  <div class="always">
+		<img src="Images/Mango-Chili-Chutney-4.jpg"/>
+	</div>
+	
+	<div class="zebro">
+		<h5>Mango chilli chutney</h5>
+		 <p>ginger,fennel seeds,vinegar</p>
+	</div>	
+	<div class="hand">
+		<p>$5</p>
+		</div>
+	
+	</div>
+ </div>	
+	    
+	
+	<div class="circleP">
+	<div class="circle" >
+	  <div class="always">
+		<img src="Images/SES-savory-herb-pancakes-and-lox-recipe-6951114-step-09-b48627c350104a56b1e6ae2f1ff8aa03.jpg"/>
+	</div>
+	
+	<div class="zebro">
+		<h5>Savory Watercress Chinese Pancakes</h5>
+		 <p>Chinese chives,sugar,grapeseed oil</p>
+	</div>	
+	<div class="hand">
+		<p>$15</p>
+		</div>
+	
+	</div>
+	
+	<div class="circle">
+	  <div class="always">
+		<img src="Images/Vegetable-Beef-Soup-bowl.jpg"/>
+	</div>
+	
+	<div class="zebro">
+		<h5>Soup With Vegetables And Meat</h5>
+		 <p>Red wine,mushroom,meat</p>
+	</div>	
+	<div class="hand">
+		<p>$11</p>
+		</div>
+	
+	</div>
+	
+	<div class="circle">
+	  <div class="always">
+		<img src="Images/images (1).jpg"/>
+	</div>
+	
+	<div class="zebro">
+		<h5>Udon Noodles With Vegetables</h5>
+		 <p>Udon noodles,soy sauce,sesame oil</p>
+	</div>	
+	<div class="hand">
+		<p>$7</p>
+		</div>
+	
+	</div>
+	
+	
+	<div class="circle">
+	  <div class="always">
+		<img src="Images/ALR-recipe-282923-baked-lobster-tails-hero-03-ddmfs-4x3-c61ad29ab8c64a65860d25c60beb128c.jpg"/>
+	</div>
+	
+	<div class="zebro">
+		<h5>Baked Lobster With A Garnish</h5>
+		 <p>Lobster tails, parsley, garlic</p>
+	</div>	
+	<div class="hand">
+		<p>$20</p>
+		</div>
+	
+	</div>
+	
+	
+	<div class="circle">
+	  <div class="always">
+		<img src="Images/octopus-with-vegetables-seafood-dish-2AYPJTR.jpg"/>
+	</div>
+	
+	<div class="zebro">
+		<h5>Octopus with Vegetables</h5>
+		 <p>octopus, cucumber, perilla</p>
+	</div>	
+	<div class="hand">
+		<p>$20</p>
+		</div>
+	</div>
+	</div>
+	</div>
+	
+	<div class="circlepsp" id="b3">
+<div class="circleP">
+	<div class="circle">
+	  <div class="always">
+		<img src="Images/grilled-steak-with-lemon-pepper-potatoes-27826-1.jpeg"/>
+	</div>
+	
+	<div class="zebro">
+		<h5>Grilled beef with potatoes</h5>
+		 <p>Meat,potatoe,rice,tomatoe</p>
+	</div>	
+	<div class="hand">
+		<p>$10</p>
+		</div>
+	
+	</div>
+	
+	<div class="circle">
+	  <div class="always">
+		<img src="Images/vanilla ice cream.jpg"/>
+	</div>
+	
+	<div class="zebro">
+		<h5>Fruit vanilla ice cream</h5>
+		 <p>Strawberry ice cream,dry fruit,wafer</p>
+	</div>	
+	<div class="hand">
+		<p>$3</p>
+		</div>
+	
+	</div>
+	
+	<div class="circle">
+	  <div class="always">
+		<img src="Images/hoisin pork.jpg"/>
+	</div>
+	
+	<div class="zebro">
+		<h5>Asian Hoisin pork</h5>
+		 <p>boneless pork chops,water chestnuts,hoisin sauce</p>
+	</div>	
+	<div class="hand">
+		<p>$12</p>
+		</div>
+	
+	</div>
+	
+	
+	<div class="circle">
+	  <div class="always">
+		<img src="Images/chicken-and-bacon-fried-rice-10-1-of-1-1024x731.jpg"/>
+	</div>
+	
+	<div class="zebro">
+		<h5>Spicy fried rice and bacon</h5>
+		 <p>bacon,white rice,soy sauce</p>
+	</div>	
+	<div class="hand">
+		<p>$8</p>
+		</div>
+	
+	</div>
+	
+	
+	<div class="circle">
+	  <div class="always">
+		<img src="Images/Mango-Chili-Chutney-4.jpg"/>
+	</div>
+	
+	<div class="zebro">
+		<h5>Mango chilli chutney</h5>
+		 <p>ginger,fennel seeds,vinegar</p>
+	</div>	
+	<div class="hand">
+		<p>$5</p>
+		</div>
+	
+	</div>
+ </div>	
+	    
+	
+	<div class="circleP">
+	<div class="circle">
+	  <div class="always">
+		<img src="Images/SES-savory-herb-pancakes-and-lox-recipe-6951114-step-09-b48627c350104a56b1e6ae2f1ff8aa03.jpg"/>
+	</div>
+	
+	<div class="zebro">
+		<h5>Savory Watercress Chinese Pancakes</h5>
+		 <p>Chinese chives,sugar,grapeseed oil</p>
+	</div>	
+	<div class="hand">
+		<p>$15</p>
+		</div>
+	
+	</div>
+	
+	<div class="circle">
+	  <div class="always">
+		<img src="Images/Vegetable-Beef-Soup-bowl.jpg"/>
+	</div>
+	
+	<div class="zebro">
+		<h5>Soup With Vegetables And Meat</h5>
+		 <p>Red wine,mushroom,meat</p>
+	</div>	
+	<div class="hand">
+		<p>$11</p>
+		</div>
+	
+	</div>
+	
+	<div class="circle">
+	  <div class="always">
+		<img src="Images/images (1).jpg"/>
+	</div>
+	
+	<div class="zebro">
+		<h5>Udon Noodles With Vegetables</h5>
+		 <p>Udon noodles,soy sauce,sesame oil</p>
+	</div>	
+	<div class="hand">
+		<p>$7</p>
+		</div>
+	
+	</div>
+	
+	
+	<div class="circle">
+	  <div class="always">
+		<img src="Images/ALR-recipe-282923-baked-lobster-tails-hero-03-ddmfs-4x3-c61ad29ab8c64a65860d25c60beb128c.jpg"/>
+	</div>
+	
+	<div class="zebro">
+		<h5>Baked Lobster With A Garnish</h5>
+		 <p>Lobster tails, parsley, garlic</p>
+	</div>	
+	<div class="hand">
+		<p>$20</p>
+		</div>
+	
+	</div>
+	
+	
+	<div class="circle">
+	  <div class="always">
+		<img src="Images/octopus-with-vegetables-seafood-dish-2AYPJTR.jpg"/>
+	</div>
+	
+	<div class="zebro">
+		<h5>Octopus with Vegetables</h5>
+		 <p>octopus, cucumber, perilla</p>
+	</div>	
+	<div class="hand">
+		<p>$20</p>
+		</div>
+	</div>
+	</div>	 
+	</div>
+	</div>
+	
+	
+	<div class="sung">
+	<p>Even all-powerful painting has no control about the blind texts it is an almosts</p>
+	</div>
+	<div class="alpha">
+	 <a href="#" class="button4"> Make a Reservation</a>
+		</div>
+	</div>
+	
+	<div class="sec9">
+    <div class="potential">
+	<div class="footer">
+		<h5>Tasty</h5>
+		<p>Far far away, behind the word<br>mountains, far from the countries<br> Vokalia and Consonantia, there<br> live the blind texts.</p>
+		
+		
+		</div>
+		
+		
+		
+		<div class="steel">
+		 <h5>Opening hours</h5>
+			<li> <a href="#"></a>Monday: <span>08-22:00</span></li>
+                <li><a href="#"></a>Tuesday: <span>08-22:00</span></li>
+                <li> <a href="#"></a>Wednesday:<span>08-22:00</span></li>
+                <li> <a href="#"></a>Thursday:<span>08-22:00</span></li>
+			    <li> <a href="#"></a>Friday:<span>08-22:00</span></li>
+                <li> <a href="#"></a>Saturday:<span>08-22:00</span></li>
+			   
+		</div>
+        
+        <div class="ijack">
+          <h5>Contact information</h5>
+          <p>195,curch road <br>banglore 567891</p>
+          <p>+1234567891</p>
+          <p>info@yoursite.com</p>
+          <p>email@email.com</p>
+        
+        
+        
+        
+        </div>
+        
+        
+        <div class="newsletter">
+        <h5>Newsletter</h5>
+        <p>Far far away, behind the word<br> mountains, far from the countries.</p>
+        
+        
+        </div>
+		
+		
+		
+		
+	
+	
+	</div>
+    </div>
+</body>
+</html>
